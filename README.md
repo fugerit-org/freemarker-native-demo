@@ -2,6 +2,11 @@
 
 Demo application for [FreeMarker Native](https://github.com/fugerit-org/freemarker-native) project, based on [Quarkus](https://quarkus.io/).
 
+[![Keep a Changelog v1.1.0 badge](https://img.shields.io/badge/changelog-Keep%20a%20Changelog%20v1.1.0-%23E05735)](CHANGELOG.md)
+[![license](https://img.shields.io/badge/License-MIT%20License-teal.svg)](https://opensource.org/license/mit)
+[![code of conduct](https://img.shields.io/badge/conduct-Contributor%20Covenant-purple.svg)](https://github.com/fugerit-org/fj-universe/blob/main/CODE_OF_CONDUCT.md)
+[![CI build native image](https://github.com/fugerit-org/freemarker-native-demo/actions/workflows/build_gradle_native_image.yml/badge.svg)](https://github.com/fugerit-org/freemarker-native-demo/actions/workflows/build_gradle_native_image.yml)
+
 ## Quickstart
 
 Requirements : 
