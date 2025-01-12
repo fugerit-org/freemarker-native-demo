@@ -12,12 +12,14 @@ val quarkusPlatformGroupId: String by project
 val quarkusPlatformArtifactId: String by project
 val quarkusPlatformVersion: String by project
 val freemarkerVersion = "2.3.34"
+val freemarkerNativeVersion = "1.0.0"
 
 dependencies {
     implementation(enforcedPlatform("${quarkusPlatformGroupId}:${quarkusPlatformArtifactId}:${quarkusPlatformVersion}"))
     implementation("io.quarkus:quarkus-rest")
     implementation("io.quarkus:quarkus-arc")
     implementation("org.freemarker:freemarker:$freemarkerVersion")
+    implementation("org.fugerit.java:freemarker-native:$freemarkerNativeVersion")
     testImplementation("io.quarkus:quarkus-junit5")
     testImplementation("io.rest-assured:rest-assured")
 }

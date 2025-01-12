@@ -1,5 +1,8 @@
 package org.fugerit.java.demo;
 
+import io.quarkus.runtime.annotations.RegisterForReflection;
+
+@RegisterForReflection
 public class HelloDataModel {
 
     private String name;
