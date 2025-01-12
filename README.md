@@ -1,5 +1,43 @@
 # freemarker-native-demo
 
+Demo application for [FreeMarker Native](https://github.com/fugerit-org/freemarker-native) project, based on [Quarkus](https://quarkus.io/).
+
+## Quickstart
+
+Requirements : 
+
+* GraalVM 21+
+
+1. Build
+
+```shell
+./gradlew build -Dquarkus.native.enabled=true -Dquarkus.package.jar.enabled=false
+```
+
+2. Run
+
+```shell
+./build/freemarker-native-demo-*-runner 
+```
+
+3. Test
+
+<http://localhost:8080/hello/freemarker>
+
+## Configuration
+
+There are the operations we did to configure this project native build : 
+
+1. Added dependency "org.fugerit.java:freemarker-native"
+2. Configured additional build args -H:IncludeResources
+3. Configured reflection for beans (with annotation @RegisterForReflection)
+
+## Original Quarkus README
+
+From here on you can find the README generated from the Quarkus Launcher : 
+
+<https://code.quarkus.io/?g=org.fugerit.java.demo&a=freemarker-native-demo&b=GRADLE_KOTLIN_DSL&e=rest>
+
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
 If you want to learn more about Quarkus, please visit its website: <https://quarkus.io/>.
