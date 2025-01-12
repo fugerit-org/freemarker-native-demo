@@ -7,6 +7,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [1.0.0] - 2025-01-12
+
 ### Added
 
 - native build CI pipeline
+- based on FreeMarker 2.3.34
+- FreeMarker Native 1.0.0
